@@ -86,8 +86,6 @@ const _user = JSON.parse(fs.readFileSync('./database/verify.json'))
 const awgp = JSON.parse(fs.readFileSync('./database/awgp.json'))
 //-- Resultados
 const _verdad = JSON.parse(fs.readFileSync('./result/verdad.json'));
-const _reto = JSON.parse(fs.readFileSync('./result/reto.json'));
-
 //---Ajustes  Del prefijo
 let multi = true
 let nopref = false
