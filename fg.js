@@ -627,24 +627,17 @@ infobot =`⊷ *BOT*
 *${soportefg}*
 
 ⊷ *AGRADECIMIENTOS* ⊶
-▢ *FG98* :
+▢ *Carlos Duarte* :
 @${fgnum.split("@")[0]}
 _*Diseñador del bot*_
-_*Fb*_ : facebook.com/fg98A
-_*Fb*_ : facebook.com/fg98ff
+_*Ig*_ : https://instagram.com/mandioka_postin?utm_medium=copy_link
 ▢ *CRISS* :
 @${crisnum.split("@")[0]}
 _*Ayudante de alguno de los camandos*_
 _*Ig*_ : instagram.com/sayurizuniga3
 ▢ *Mi Gato* :
 _*:)*_
-
-▢ Instagram :
-https://www.instagram.com/fg98._
-▢ BASE :
-https://github.com/FG98F/fgbotv3
-▢ DUEÑO :
-https://github.com/FG98F`
+▢ Instagram :https://instagram.com/mandioka_postin?utm_medium=copy_link
 mentions(infobot, [fgnum, crisnum], true)
 break
 
@@ -1407,7 +1400,7 @@ anug = await imgbb2("20a14861e4f7591f3dc52649cb07ae02", './stickgay.jpeg')
 txtg = `${anug.display_url}`
 sgay = await getBuffer(`https://pecundang.herokuapp.com/api/gay?url=${txtg}`)
 const bas642 = `data:image/jpeg;base64,${sgay.toString('base64')}`
-var mantap2 = await convertSticker(bas642, `💎 @fg98._`, `🔮 DyLux ┃ ᴮᴼᵀ`)
+var mantap2 = await convertSticker(bas642, `💎 @carlos_duartex._`, `🔮 CD7 ┃ ᴮᴼᵀ`)
 var imageBuffer2 = new Buffer.from(mantap2, 'base64');
 Fg.sendMessage(from, imageBuffer2, sticker, {quoted: mek})
 fs.unlinkSync('./stickgay.jpeg')
@@ -1430,7 +1423,7 @@ anur = await imgbb2r("20a14861e4f7591f3dc52649cb07ae02", './stickrip.jpeg')
 txtr = `${anur.display_url}`
 srip = await getBuffer(`https://pecundang.herokuapp.com/api/rip?url=${txtr}`)
 const bas642r = `data:image/jpeg;base64,${srip.toString('base64')}`
-var mantap2r = await convertSticker(bas642r, `💎 @fg98._`, `🔮 DyLux ┃ ᴮᴼᵀ`)
+var mantap2r = await convertSticker(bas642r, `💎 @carlos_duartex._`, `🔮 CD7 ┃ ᴮᴼᵀ`)
 var imageBuffer2r = new Buffer.from(mantap2r, 'base64');
 Fg.sendMessage(from, imageBuffer2r, sticker, {quoted: mek})
 fs.unlinkSync('./stickrip.jpeg')
@@ -1484,7 +1477,7 @@ anuc = await imgbb2c("20a14861e4f7591f3dc52649cb07ae02", './stickc.jpeg')
 txtc = `${anuc.display_url}`
 sc = await getBuffer(`https://pecundang.herokuapp.com/api/jail?url=${txtc}`)
 const bas642c = `data:image/jpeg;base64,${sc.toString('base64')}`
-var mantap2c = await convertSticker(bas642c, `💎 @fg98._`, `🔮 DyLux ┃ ᴮᴼᵀ`)
+var mantap2c = await convertSticker(bas642c, `💎 @carlos_duartex._`, `🔮 CD77 ┃ ᴮᴼᵀ`)
 var imageBuffer2c = new Buffer.from(mantap2c, 'base64');
 Fg.sendMessage(from, imageBuffer2c, sticker, {quoted: mek})
 fs.unlinkSync('./stickc.jpeg')
@@ -2170,7 +2163,7 @@ break
  case 'play':
 			if (!isVerify) return reply(userB(prefix))
   if (isBanned) return reply(banf())
-   if (args.length < 1) return reply(`✳️ *Ingresa el título de una canción*\n\n📌Ejemplo *${prefix + command}* Lil Peep broken smile`)
+   if (args.length < 1) return reply(`✳️ *Ingresa el título de una canción*\n\n📌Ejemplo *${prefix + command}* FaraonGodShady`)
   reply(wait())
             var srch = args.join('')
     		ytfg = await yts(srch);
@@ -2210,7 +2203,7 @@ _📤 Enviando, espere si el audio no aparece, descargue por el link_`
 				case 'playmp4':
 				 if (!isVerify) return reply(userB(prefix))
   if (isBanned) return reply(banf())
-           if (args.length < 1) return reply(`✳️ *Ingresa el título de un video*\n\n📌Ejemplo *${prefix + command}* Lil Peep broken smile`)
+           if (args.length < 1) return reply(`✳️ *Ingresa el título de un video*\n\n📌Ejemplo *${prefix + command}* FaraonGod Shady/Cunumi`)
             var srch = args.join('')
             vidfg = await yts(srch);
             aramat = vidfg.all 
@@ -2253,8 +2246,8 @@ case 'stickergif':
 case 'sgif':  
   if (!isVerify) return reply(userB(prefix))
   if (isBanned) return reply(banf())
-					var a = 'FG98'
-        var b = 'DyLux v4'
+					var a = 'mandioka_postin'
+        var b = 'Carlos_duartex'
         if (
           ((isMedia && !mek.message.videoMessage) || isQuotedImage) &&
           args.length == 0
@@ -2580,7 +2573,7 @@ break
       default:
  
                  if (budy.includes(`Gracias bot`)) {
-                  replyfg(`De nada 😊 estoy para ayudarte`)
+                  replyfg(`De nada kp🤙🇵🇾🍻`)
                   }
 				
 //-------------------------------------///---------------------------//----------
