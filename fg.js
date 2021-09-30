@@ -1,8 +1,8 @@
-/*============ FG98 ============
+/*============ Bot_py🇵🇾 ============
 
-    🇩 🇾 🇱 🇺 🇽  𝗩4  template
+  _Ig del creador_:https://instagram.com/mandioka_postin?utm_medium=copy_link
 
-============ FG98 ============*/
+============ Bot_py🇵🇾 ============*/
 
  //--  Conectar a WhatsApp
 const {
