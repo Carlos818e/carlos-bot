@@ -646,7 +646,7 @@ case 'rules':
 case 'reglas':
 case 'reglasbot':
 if (!isVerify) return reply(userB(prefix))
-	reglasbot = `  ≡ *REGLAS*
+	reglasbot = *REGLAS*
 
 
 *REGLAS PARA USUARIOS DE BOT* 
